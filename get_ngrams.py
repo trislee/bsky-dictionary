@@ -51,4 +51,4 @@ if __name__ == "__main__":
     freqs.to_csv(FREQ_LIST, index = False, header = False)
 
     print("Unused words with highest frequency\n")
-    print(freqs.sort_values("freq", ascending = False).iloc[:5].to_string(index = False))
+    print(freqs.sort_values("freq", ascending = False).iloc[:10].to_string(index = False))
